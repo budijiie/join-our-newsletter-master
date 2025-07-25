@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --colorDarkGrey: #6C727F;
+  --colorLightGrey: #E5E7EB;
+  --colorAthensGrey: #F9FAFB;
+  --colorWhite: #fff;
+  --colorBlack: #000;
+  --colorNavyBlue: #284BCE;
+  --colorDarkCyan: #394150;
+
+  --fontHeading: 3rem;
+  --fontSubHeading: 1.25rem;
+  --fontPlaceholder: 1rem;
+  --fontButtonText: 1rem;
+  --fontHelperText: 0.875rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}      
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--colorAthensGrey);
+}
+
+main {
+  width: min(80%, 750px);
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--fontHeading);
+  font-weight: 600;
+  margin: 26px auto 12px auto;
+}
+
+.sub_heading {
+  font-size: var(--fontSubHeading);
+  color: var(--colorDarkGrey);
+  margin-bottom: 52px;  
+}
+
+.input_container {
+  width: min(525px, 80%);
+  margin: 0 auto;
+  padding: 1.5rem 0 1.5rem 0;
+  border-radius: 1rem;
+
+  background-color: var(--colorWhite);
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+input {
+  padding: 14px 0;
+  border: transparent;
+}
+
+
+.input_container * {
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.helper_text {
+  font-size: var(--fontHelperText);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+  text-align: center;
+  margin: 0 auto;
+  color: var(--colorDarkGrey);
+}
+
+#email {
+  font-weight: 500;
+
+  background-color: var(--colorLightGrey);
+  color: var(--colorDarkCyan);
+  
+
+  margin-bottom: 24px;
+}
+
+#subscribe {
+  font-weight: 600;
+  background-color: var(--colorNavyBlue);
+  color: var(--colorAthensGrey);
+  margin-bottom: 18px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .input_container {
+    width: 100%;
+  }
+}
