@@ -58,5 +58,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
 - GitHub [budijiie](https://{https://github.com/budijiie})
