@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://budijiie.github.io/join-our-newsletter-master/">
+    <a href="{https://budijiie.github.io/join-our-newsletter-master/}">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="{https://devchallenges.io/solution/55473olution}">
       Solution
     </a>
     <span> | </span>
